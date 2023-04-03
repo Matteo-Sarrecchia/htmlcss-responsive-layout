@@ -6,15 +6,28 @@
 
 .container{
     width: 80%;
-    min-height: 150px;
+    min-height: 100px;
     margin: auto;
     margin-bottom: 20px;
 }
 
 /* header */
 header{
-    min-height: 100px;
-    background-color: red;
+    height: 90px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container.header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
 }
 
 #logo, nav{
@@ -24,14 +37,84 @@ header{
     min-width: 50px;
 }
 
+#menu-mobile{
+     display: none;
+   }
+
+
+   /* header tablet */
+@media screen and (max-width:768px) {
+    #menu-desktop{
+        display: none;
+    }
+
+    #menu-mobile{
+        display: block;
+    }
+}
+
 
 /* corpo centrale */
+
+/* application section */
+.section{
+    padding-top: 130px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.row-up, .row-down{
+    display: flex;
+}
+
+.col.demo, .col.code, .col.web, .col.develop, .col.branding{
+    background-color: orange;
+    border: 1px solid black;
+    height: 150px;
+    margin: 10px;
+}
+
+.col.demo{
+    width: 70%;
+}
+
+.col.code{
+    width: 30%;
+}
+
+.col.web, .col.develop{
+  width: 35%;
+}
+
+.col.web{
+    margin-right: 0;
+}
+
+.col.col.develop{
+    margin-left: 0;
+}
+
+.col.branding{
+    width: 30%;
+}
+
+@media screen and  (max-width:768px) {
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
 
 
 /* footer */
 footer{
     min-height: 100px;
 }
+
+
 
 
 /* debug */
