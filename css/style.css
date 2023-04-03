@@ -61,11 +61,9 @@ header{
     cursor: pointer;
 }
 
-
 #menu-mobile{
      display: none;
    }
-
 
    /* header tablet/mobile */
 @media screen and (max-width:768px) {
@@ -89,8 +87,6 @@ header{
 /* application section */
 .section.application{
     padding-top: 130px;
-    background-color: blueviolet;
-    border: 1px solid black;
 }
 
 .row-up, .row-down{
@@ -98,34 +94,100 @@ header{
 }
 
 .col.demo, .col.code, .col.web, .col.develop, .col.branding{
-    background-color: orange;
-    border: 1px solid black;
+    background-color: #B5DDFF;
     min-height: 150px;
     margin: 10px;
 }
 
+/* slide demo */
 .col.demo{
     width: 70%;
 }
 
-.col.code{
-    width: 30%;
+.col.demo{
+    display: flex;
+    background-color: #B5DDFF;
+    border-radius: 20px;
 }
 
+/* sub col sinistra */
+.sub-col.left{
+    width: 50%;
+    padding: 10px;
+}
+
+.sub-col.right{
+    width: 50%;
+    padding: 0 10px;
+}
+
+.sub-col.left h2, .sub-col.left p{
+    padding-bottom: 30px;
+}
+
+.container.application h2{
+    color: #0084FD;
+    padding-top: 30px;
+}
+
+.container.application p{
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+
+.button{
+    color: white;
+    padding: 10px 30px;
+    background-color: #0084FD;
+    border-radius: 20px;
+    border: none;
+}
+
+/* sub col destra */
+.sub-col.right img{
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 100px;
+    display: block;
+}
+
+/* slide code */
+.col.code{
+    width: 30%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.logo-slide{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* row down */
 .col.web, .col.develop{
-  width: 35%;
+     width: 35%;
+     text-align: center;
+    border-radius: 20px;
 }
 
 .col.web{
     margin-right: 0;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .col.develop{
     margin-left: 0;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .col.branding{
     width: 30%;
+    text-align: center;
+    border-radius: 20px;
 }
 
 /* application section tablet */
@@ -146,9 +208,7 @@ header{
       width: auto;
       margin: 20px;
     }
-   
 }
-
 
 /* planning section */
 .container.planning{
