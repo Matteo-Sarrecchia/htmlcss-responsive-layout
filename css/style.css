@@ -131,7 +131,13 @@ header{
     }
 }
 
-
+/* testimonial section */
+.container.testimonials .col{
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 150px;
+    margin: 10px;
+}
 
 
 
