@@ -8,7 +8,6 @@
     width: 80%;
     min-height: 100px;
     margin: auto;
-    margin-bottom: 20px;
 }
 
 /* header */
@@ -57,7 +56,7 @@ header{
 /* corpo centrale */
 
 /* application section */
-.section{
+.section.application{
     padding-top: 130px;
     background-color: blueviolet;
     border: 1px solid black;
@@ -70,7 +69,7 @@ header{
 .col.demo, .col.code, .col.web, .col.develop, .col.branding{
     background-color: orange;
     border: 1px solid black;
-    height: 150px;
+    min-height: 150px;
     margin: 10px;
 }
 
@@ -98,12 +97,39 @@ header{
     width: 30%;
 }
 
+/* application section tablet */
 @media screen and  (max-width:768px) {
     .container{
         width: 100%;
     }
 }
 
+
+/* planning section */
+.container.planning{
+    display: flex;
+    justify-content: center;
+}
+
+.col.strategic-plan, .col.app-develop{
+    width: 40%;
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 150px;
+}
+
+
+/* planning section tablet */
+@media screen and  (max-width:768px) {
+    .container.planning{
+        display: block;
+    }
+
+    .col.strategic-plan, .col.app-develop{
+        margin: auto;
+        width: 100%;
+    }
+}
 
 
 
@@ -121,6 +147,14 @@ footer{
 .container{
     background-color: green;
     border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+section{
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin-top: 20px;
 }
 
 footer{
