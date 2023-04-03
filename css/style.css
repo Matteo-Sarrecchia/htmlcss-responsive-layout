@@ -41,7 +41,7 @@ header{
    }
 
 
-   /* header tablet */
+   /* header tablet/mobile */
 @media screen and (max-width:768px) {
     #menu-desktop{
         display: none;
@@ -89,7 +89,7 @@ header{
     margin-right: 0;
 }
 
-.col.col.develop{
+.col.develop{
     margin-left: 0;
 }
 
@@ -102,6 +102,20 @@ header{
     .container{
         width: 100%;
     }
+}
+
+/* about-ass mobile */
+@media screen and (max-width:480px) {
+    .row-up, .row-down{
+        display: block;
+    }
+    
+    .col.demo, .col.code, .col.web, 
+    .col.develop, .col.branding{
+      width: auto;
+      margin: 20px;
+    }
+   
 }
 
 
@@ -130,6 +144,15 @@ header{
         width: 100%;
     }
 }
+
+/* about-ass mobile */
+@media screen and (max-width:480px) {
+    .col.strategic-plan, .col.app-develop {
+        margin: 20px;
+        width: auto;
+    }  
+}
+
 
 /* testimonial section */
 .container.testimonials .col{
@@ -164,6 +187,17 @@ header{
     }
 }
 
+/* about-ass mobile */
+@media screen and (max-width:480px) {
+    .row.benefits{
+        display: block;
+    }   
+
+    .container.benefits .col{
+        width: auto;
+    }
+}
+
 /* about-ass section */
 .container.about-ass{
     display: flex;
@@ -182,6 +216,18 @@ header{
 
 .about-img{
     width: 25%;
+}
+
+/* about-ass mobile */
+@media screen and (max-width:480px) {
+    .container.about-ass{
+        display: block;
+    }
+
+    .about-par, .about-img{
+        width: auto;
+        margin: 20px;
+    }
 }
 
 
