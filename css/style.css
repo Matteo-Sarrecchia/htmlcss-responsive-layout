@@ -164,6 +164,27 @@ header{
     }
 }
 
+/* about-ass section */
+.container.about-ass{
+    display: flex;
+}
+
+.about-ass .col{
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 150px;
+    margin: 10px;
+}
+
+.about-par{
+    width: 75%;
+}
+
+.about-img{
+    width: 25%;
+}
+
+
 
 /* footer */
 footer{
