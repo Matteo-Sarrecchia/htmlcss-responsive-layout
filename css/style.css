@@ -139,6 +139,30 @@ header{
     margin: 10px;
 }
 
+/* benefits section */
+.row.benefits{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container.benefits{
+    text-align: center;
+}
+
+.container.benefits .col{
+    background-color: orange;
+    border: 1px solid black;
+    min-height: 150px;
+    margin: 10px;
+    width: calc(100%/3 - 20px);
+}
+
+/* benefits section tablet */
+@media screen and  (max-width:768px) {
+    .container.benefits .col{
+        width: calc(100%/2 - 20px);
+    }
+}
 
 
 /* footer */
