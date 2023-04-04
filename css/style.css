@@ -286,6 +286,64 @@ header{
     margin: 10px;
 }
 
+.col.testimonials{
+    text-align: center;
+    padding: 30px 70px;
+}
+
+.col.testimonials h2{
+    color: #9593e6;
+    padding-bottom: 20px;
+}
+
+.col.testimonials h4{
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.col.nat, .col.bob, .col.celia{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #9593e6;
+}
+
+.sub-testim.left{
+    width: 150px;
+    max-height: 150px;
+    border: 1px solid black;
+    margin: 20px 0;
+    border-radius: 50%;
+}
+
+.sub-testim.right{
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
+.container.testimonials p, .container.testimonials h4{
+    padding: 20px;
+}
+
+.col.nat .sub-testim.left{
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col.celia .sub-testim.left{
+    background-image: url(../img/testimonial2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.col.bob .sub-testim.left{
+    background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* benefits section */
 .row.benefits{
     display: flex;
