@@ -362,6 +362,38 @@ header{
     width: calc(100%/3 - 20px);
 }
 
+.container.benefits h2{
+    font-size: 40px;
+    color: #9593e6;
+    padding: 30px;
+}
+
+.row.benefits .col{
+    text-align: left;
+    padding: 20px;
+    color: #9593e6;
+}
+
+.row.benefits .col span{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.row.benefits .col h4,
+.row.benefits .col p,
+.row.benefits .col input{
+    margin-top: 20px;
+}
+
+.row.benefits .col input{
+    padding: 5px 30px;
+    color: white;
+    background-color: #9593e6;
+    border: none;
+    border-radius: 20px;
+}
+
+
 /* benefits section tablet */
 @media screen and  (max-width:768px) {
     .container.benefits .col{
